@@ -1,7 +1,8 @@
 {
-    "name": "silverstripe-module/skeleton",
-    "description": "A skeleton for SilverStripe modules.",
+    "name": "loveduckie/silverstripe-blog-impression-image-generator",
+    "description": "A SilverStripe extension for automagically generating impression images for technical blog posts.",
     "type": "silverstripe-vendormodule",
+    "homepage": "https://github.com/LoveDuckie/silverstripe-blog-impression-image-generator",
     "keywords": [
         "silverstripe",
         "CMS"
@@ -17,8 +18,8 @@
     },
     "autoload": {
         "psr-4": {
-            "SilverStripeModule\\Skeleton\\": "src/",
-            "SilverStripeModule\\Skeleton\\Tests\\": "tests/"
+            "LoveDuckie\\SilverStripe\\BlogImpressionImageGenerator\\": "src/",
+            "LoveDuckie\\SilverStripe\\BlogImpressionImageGenerator\\Tests\\": "tests/"
         }
     },
     "extra": {
